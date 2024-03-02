@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://endelsab.github.io/MyBlog/",
+  "homepage": "https://endelsab.github.io/MyBlog/src/main.jsx",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
