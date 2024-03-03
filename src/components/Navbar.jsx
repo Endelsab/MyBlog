@@ -29,7 +29,7 @@ function Navbar(props) {
 	const drawer = (
 		<Box
 			onClick={handleDrawerToggle}
-			sx={{ textAlign: "center", bgcolor: "skyblue" }}>
+			sx={{ textAlign: "center", }}>
 			<Typography variant="h6" sx={{ my: 2 }}>
 				Wendel's BlogSite
 			</Typography>
@@ -67,16 +67,16 @@ function Navbar(props) {
 					</IconButton>
 
 					<Typography
-						variant="h6"
+						variant="h4"
 						component="div"
-						sx={{ flexGrow: 1, display: { xs: "none", sm: "block" } }}>
+						sx={{ flexGrow: 1, display: { xs: "none", sm: "block",textAlign:"center",marginLeft:"180px" } }}>
 						Wendel's BlogSite
 					</Typography>
 					<Box sx={{ display: { xs: "none", sm: "block" } }}>
 						{navItems.map((item) => (
 							<Button
 								key={item}
-								sx={{ color: "#fff", ":hover": { color: "skyblue" } }}>
+								sx={{ color: "white", ":hover": { color: "skyblue"} }}>
 								{item}
 							</Button>
 						))}
