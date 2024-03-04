@@ -10,7 +10,7 @@ import Avatar from "@mui/material/Avatar";
 import { Button, Stack, TextField } from "@mui/material";
 import EmojiEmotionsIcon from "@mui/icons-material/EmojiEmotions";
 import AddPhotoAlternateIcon from "@mui/icons-material/AddPhotoAlternate";
-import SendIcon from "@mui/icons-material/Send";
+
 
 const StyledModal = styled(Modal)({
 	display: "flex",
